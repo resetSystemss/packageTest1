@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Robot: NSObject {
+public class Robot: NSObject {
     
     var name: String
     
@@ -15,7 +15,7 @@ class Robot: NSObject {
         self.name = name
     }
     
-    func talk() {
+    public func talk() {
         print("Hello \(name)")
     }
 }
